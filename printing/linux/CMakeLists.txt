@@ -17,7 +17,7 @@ set(PROJECT_NAME "printing")
 project(${PROJECT_NAME} LANGUAGES CXX)
 
 set(PDFIUM_VERSION "5200" CACHE STRING "Version of pdfium used")
-set(PDFIUM_ARCH "x64" CACHE STRING "Architecture of pdfium used")
+set(PDFIUM_ARCH "arm64" CACHE STRING "Architecture of pdfium used")
 
 if(${PDFIUM_VERSION} STREQUAL "latest")
   set(
